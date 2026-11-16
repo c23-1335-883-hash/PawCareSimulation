@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 747f14ad5d755ec4488a0aeb91317078, type: 3}
+  m_Name: PetStageLibrary
+  m_EditorClassIdentifier: Assembly-CSharp::PetStageLibrary
+  dogStageNames:
+  - Puppy
+  - Young
+  - Adult
+  - Senior
+  catStageNames:
+  - Kitten
+  - Young
+  - Adult
+  - Senior
+  breeds:
+  - id: Beagle
+    displayName: Beagle
+    isCat: 0
+    stages:
+    - {fileID: 1416740921316961631, guid: 7f08b080c1ca3e24fb0206a6108ba362, type: 3}
+    - {fileID: -1124440261, guid: 7f08b080c1ca3e24fb0206a6108ba362, type: 3}
+    - {fileID: 1936676132, guid: 7f08b080c1ca3e24fb0206a6108ba362, type: 3}
+    - {fileID: 1121666506, guid: 7f08b080c1ca3e24fb0206a6108ba362, type: 3}
+  - id: Chihuahua
+    displayName: Chihuahua
+    isCat: 0
+    stages:
+    - {fileID: -2377735727823366626, guid: 7e88137f50e4f0c4ca7cfdf138f94920, type: 3}
+    - {fileID: 416276884, guid: 7e88137f50e4f0c4ca7cfdf138f94920, type: 3}
+    - {fileID: 2625786710212444299, guid: 7e88137f50e4f0c4ca7cfdf138f94920, type: 3}
+    - {fileID: -5081002554550833221, guid: 7e88137f50e4f0c4ca7cfdf138f94920, type: 3}
+  - id: FrenchBulldog
+    displayName: French Bulldog
+    isCat: 0
+    stages:
+    - {fileID: 8768407589974857197, guid: 7ae166c05fa998e48b9570d09d9991e4, type: 3}
+    - {fileID: 2421667112514122755, guid: 7ae166c05fa998e48b9570d09d9991e4, type: 3}
+    - {fileID: 2498786937998309356, guid: 7ae166c05fa998e48b9570d09d9991e4, type: 3}
+    - {fileID: 8045812629105128976, guid: 7ae166c05fa998e48b9570d09d9991e4, type: 3}
+  - id: GoldenRetriever
+    displayName: Golden Retriever
+    isCat: 0
+    stages:
+    - {fileID: -2413559562890429139, guid: 8b3869aad799cff4fa56c7a0549cc3a1, type: 3}
+    - {fileID: -817184746, guid: 8b3869aad799cff4fa56c7a0549cc3a1, type: 3}
+    - {fileID: 1139592941, guid: 8b3869aad799cff4fa56c7a0549cc3a1, type: 3}
+    - {fileID: 182303641, guid: 8b3869aad799cff4fa56c7a0549cc3a1, type: 3}
+  - id: LabradorRetriever
+    displayName: Labrador Retriever
+    isCat: 0
+    stages:
+    - {fileID: 2025849397, guid: 2e745e3f292ceef4086fa262c55ca1d5, type: 3}
+    - {fileID: -400826389, guid: 2e745e3f292ceef4086fa262c55ca1d5, type: 3}
+    - {fileID: 116589123, guid: 2e745e3f292ceef4086fa262c55ca1d5, type: 3}
+    - {fileID: -944643962, guid: 2e745e3f292ceef4086fa262c55ca1d5, type: 3}
+  - id: Maltese
+    displayName: Maltese
+    isCat: 0
+    stages:
+    - {fileID: 8644085094291767552, guid: 5f022c48fdd68854da56f530bf48e683, type: 3}
+    - {fileID: -2443256290452592612, guid: 5f022c48fdd68854da56f530bf48e683, type: 3}
+    - {fileID: 207939797513792465, guid: 5f022c48fdd68854da56f530bf48e683, type: 3}
+    - {fileID: -4533901031651913906, guid: 5f022c48fdd68854da56f530bf48e683, type: 3}
+  - id: Pomeranian
+    displayName: Pomeranian
+    isCat: 0
+    stages:
+    - {fileID: -4360515062589771922, guid: 84a628da1245a014fa6d4f0490645862, type: 3}
+    - {fileID: 3549900062762969975, guid: 84a628da1245a014fa6d4f0490645862, type: 3}
+    - {fileID: -2652398544781366769, guid: 84a628da1245a014fa6d4f0490645862, type: 3}
+    - {fileID: 2775901658167351632, guid: 84a628da1245a014fa6d4f0490645862, type: 3}
+  - id: Poodle
+    displayName: Poodle
+    isCat: 0
+    stages:
+    - {fileID: -5298136755911692243, guid: a1759a684b032a545a46469175c48e1a, type: 3}
+    - {fileID: -334704001800502145, guid: a1759a684b032a545a46469175c48e1a, type: 3}
+    - {fileID: 5704382913193455677, guid: a1759a684b032a545a46469175c48e1a, type: 3}
+    - {fileID: -5461058383776116183, guid: a1759a684b032a545a46469175c48e1a, type: 3}
+  - id: Pug
+    displayName: Pug
+    isCat: 0
+    stages:
+    - {fileID: -5951985326965060313, guid: 511e6a3eb0da6c3468ae38dc9d90146d, type: 3}
+    - {fileID: -211336105, guid: 511e6a3eb0da6c3468ae38dc9d90146d, type: 3}
+    - {fileID: 61304483, guid: 511e6a3eb0da6c3468ae38dc9d90146d, type: 3}
+    - {fileID: 264905353, guid: 511e6a3eb0da6c3468ae38dc9d90146d, type: 3}
+  - id: ShihTzu
+    displayName: Shih Tzu
+    isCat: 0
+    stages:
+    - {fileID: 2392556484926570566, guid: cf46ffc0e88ca244c890f1090404127f, type: 3}
+    - {fileID: -7810194365885349645, guid: cf46ffc0e88ca244c890f1090404127f, type: 3}
+    - {fileID: 4732839141805021744, guid: cf46ffc0e88ca244c890f1090404127f, type: 3}
+    - {fileID: -3498681919792965619, guid: cf46ffc0e88ca244c890f1090404127f, type: 3}
+  - id: Abyssinian
+    displayName: Abyssinian
+    isCat: 1
+    stages:
+    - {fileID: -7295831153844838068, guid: 2637543784d0019418828a2c13390ead, type: 3}
+    - {fileID: 2069656597636000172, guid: 2637543784d0019418828a2c13390ead, type: 3}
+    - {fileID: 6244246216644016774, guid: 2637543784d0019418828a2c13390ead, type: 3}
+    - {fileID: 1659940537362871616, guid: 2637543784d0019418828a2c13390ead, type: 3}
+  - id: Birman
+    displayName: Birman
+    isCat: 1
+    stages:
+    - {fileID: 4873798118423493733, guid: bbf9e7677317d0b489d284919753f7a3, type: 3}
+    - {fileID: -7429459077962411933, guid: bbf9e7677317d0b489d284919753f7a3, type: 3}
+    - {fileID: 2855285115321955904, guid: bbf9e7677317d0b489d284919753f7a3, type: 3}
+    - {fileID: -6313952834631420268, guid: bbf9e7677317d0b489d284919753f7a3, type: 3}
+  - id: BritishShorthair
+    displayName: British Shorthair
+    isCat: 1
+    stages:
+    - {fileID: 2327919947887851444, guid: 33c4ff16dddba3948ae6fc250fb0cb6e, type: 3}
+    - {fileID: 4378196547482020710, guid: 33c4ff16dddba3948ae6fc250fb0cb6e, type: 3}
+    - {fileID: 6248083566808512688, guid: 33c4ff16dddba3948ae6fc250fb0cb6e, type: 3}
+    - {fileID: -4316226332297991165, guid: 33c4ff16dddba3948ae6fc250fb0cb6e, type: 3}
+  - id: ExoticShorthair
+    displayName: Exotic Shorthair
+    isCat: 1
+    stages:
+    - {fileID: -5989955467997963302, guid: 623253a14c7e9f34f908ddd3b00d10b2, type: 3}
+    - {fileID: -8949008452862031992, guid: 623253a14c7e9f34f908ddd3b00d10b2, type: 3}
+    - {fileID: 3655136662238112035, guid: 623253a14c7e9f34f908ddd3b00d10b2, type: 3}
+    - {fileID: 6728767738865547330, guid: 623253a14c7e9f34f908ddd3b00d10b2, type: 3}
+  - id: MaineCoon
+    displayName: Maine Coon
+    isCat: 1
+    stages:
+    - {fileID: -950102987655695987, guid: 22232709332f1304787e790bba569e32, type: 3}
+    - {fileID: -204392086706241426, guid: 22232709332f1304787e790bba569e32, type: 3}
+    - {fileID: 220805512191477607, guid: 22232709332f1304787e790bba569e32, type: 3}
+    - {fileID: 360999382914172504, guid: 22232709332f1304787e790bba569e32, type: 3}
+  - id: Persian
+    displayName: Persian
+    isCat: 1
+    stages:
+    - {fileID: 6609642911670111108, guid: b6c301170b577ac4da399ecb5c82adcd, type: 3}
+    - {fileID: 7319494503199381969, guid: b6c301170b577ac4da399ecb5c82adcd, type: 3}
+    - {fileID: 5947596011443326, guid: b6c301170b577ac4da399ecb5c82adcd, type: 3}
+    - {fileID: 9202316220777220486, guid: b6c301170b577ac4da399ecb5c82adcd, type: 3}
+  - id: Ragdoll
+    displayName: Ragdoll
+    isCat: 1
+    stages:
+    - {fileID: 397049480413819277, guid: 15a27ba8d54b3d74e8b270c3cf89d1d4, type: 3}
+    - {fileID: -5625275392948168335, guid: 15a27ba8d54b3d74e8b270c3cf89d1d4, type: 3}
+    - {fileID: -3684264103489073703, guid: 15a27ba8d54b3d74e8b270c3cf89d1d4, type: 3}
+    - {fileID: -5100318376404258817, guid: 15a27ba8d54b3d74e8b270c3cf89d1d4, type: 3}
+  - id: ScottishFold
+    displayName: Scottish Fold
+    isCat: 1
+    stages:
+    - {fileID: 3474005700477496660, guid: 761145ab19fd4af4795afafe1af9acc1, type: 3}
+    - {fileID: -4641539061953356427, guid: 761145ab19fd4af4795afafe1af9acc1, type: 3}
+    - {fileID: 2324808725166388131, guid: 761145ab19fd4af4795afafe1af9acc1, type: 3}
+    - {fileID: 944538951403962049, guid: 761145ab19fd4af4795afafe1af9acc1, type: 3}
+  - id: Siamese
+    displayName: Siamese
+    isCat: 1
+    stages:
+    - {fileID: -3823604820509741897, guid: 80d1b6b40476d5c439c3cffc544213c6, type: 3}
+    - {fileID: 3638229365097004406, guid: 80d1b6b40476d5c439c3cffc544213c6, type: 3}
+    - {fileID: -2883572034083674551, guid: 80d1b6b40476d5c439c3cffc544213c6, type: 3}
+    - {fileID: -3620023448136803161, guid: 80d1b6b40476d5c439c3cffc544213c6, type: 3}
+  - id: Sphynx
+    displayName: Sphynx
+    isCat: 1
+    stages:
+    - {fileID: 6432287247922211631, guid: 2fdd62baee9249c4a9798a4e1a001ade, type: 3}
+    - {fileID: -8031069429294900677, guid: 2fdd62baee9249c4a9798a4e1a001ade, type: 3}
+    - {fileID: 2355987884283780808, guid: 2fdd62baee9249c4a9798a4e1a001ade, type: 3}
+    - {fileID: 5963667908357695116, guid: 2fdd62baee9249c4a9798a4e1a001ade, type: 3}

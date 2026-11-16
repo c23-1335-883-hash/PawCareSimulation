@@ -1,0 +1,273 @@
+fileFormatVersion: 2
+guid: 2e745e3f292ceef4086fa262c55ca1d5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6189513171364515098
+    second: Labrador Retriever_0
+  - first:
+      213: -6385194730848245442
+    second: Labrador Retriever_stage1
+  - first:
+      213: 6421920955328779796
+    second: Labrador Retriever_stage2
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Labrador Retriever_2
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1030
+        width: 537
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34203f60000000000800000000000000
+      internalID: 116589123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador Retriever_3
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 1025
+        width: 536
+        height: 708
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680e1b7cffffffff0800000000000000
+      internalID: -944643962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador Retriever_7
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1038
+        width: 577
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befdb18effffffff0800000000000000
+      internalID: -400826389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Labrador Retriever_15
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1035
+        width: 420
+        height: 515
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53200c87000000000800000000000000
+      internalID: 2025849397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 21b5b431417a55c4fa174835d930a92d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Labrador Retriever_0: -6189513171364515098
+      Labrador Retriever_1: -774731882
+      Labrador Retriever_10: -1118552270
+      Labrador Retriever_11: 1028008404
+      Labrador Retriever_12: -2055516363
+      Labrador Retriever_13: -2067129275
+      Labrador Retriever_14: -795507938
+      Labrador Retriever_15: 2025849397
+      Labrador Retriever_16: 1027607519
+      Labrador Retriever_17: -260893183
+      Labrador Retriever_18: 1650408936
+      Labrador Retriever_19: 570505861
+      Labrador Retriever_2: 116589123
+      Labrador Retriever_20: -2050053675
+      Labrador Retriever_21: -1544937001
+      Labrador Retriever_22: -1875687707
+      Labrador Retriever_23: 1728425352
+      Labrador Retriever_24: -1549000071
+      Labrador Retriever_25: -1682749297
+      Labrador Retriever_26: -1025409962
+      Labrador Retriever_27: 1608173875
+      Labrador Retriever_28: 371392949
+      Labrador Retriever_29: 208751639
+      Labrador Retriever_3: -944643962
+      Labrador Retriever_30: -687481127
+      Labrador Retriever_31: 1291758415
+      Labrador Retriever_32: -295490419
+      Labrador Retriever_33: -131941353
+      Labrador Retriever_34: -1358758287
+      Labrador Retriever_35: -1552480670
+      Labrador Retriever_36: -1820362050
+      Labrador Retriever_37: 544691540
+      Labrador Retriever_38: -2086920659
+      Labrador Retriever_39: 2077213589
+      Labrador Retriever_4: -1990918210
+      Labrador Retriever_40: 421763452
+      Labrador Retriever_41: 451442325
+      Labrador Retriever_5: 475869770
+      Labrador Retriever_6: -899640125
+      Labrador Retriever_7: -400826389
+      Labrador Retriever_8: -1720041924
+      Labrador Retriever_9: 1523339452
+      Labrador Retriever_stage1: -6385194730848245442
+      Labrador Retriever_stage2: 6421920955328779796
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -112,3 +112,34 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Android signing keys must never be committed
+*.keystore
+*.jks
+
+# ---------------------------------------------------------------------------
+# PawCare: local files that do not belong in the repository
+# ---------------------------------------------------------------------------
+# Editor/IDE settings
+.vscode/
+.idea/
+
+# OS and Office temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# Local asset backups and scratch folders
+/SpriteBackups_*/
+/GeneratedAssets/
+
+# Capstone manuscript drafts and superseded activity documents kept locally
+/PAWcare_Chapter*
+/PAWcare_Study_Guide.pdf
+/Activity6_Software_Architecture_PetCareSimulation_with_screenshots.docx
+/Activity8_PawCare_FirstRelease_v0.1.0.docx
+
+# Activity documents and their screenshots (kept locally, not part of the game)
+/Documentation/
+/Screenshots/

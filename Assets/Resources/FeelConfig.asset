@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4785fd5eb709dd14396801b1a63692f0, type: 3}
+  m_Name: FeelConfig
+  m_EditorClassIdentifier: Assembly-CSharp::FeelConfig
+  hoverScale: 1.08
+  hoverTime: 0.12
+  pressedScale: 0.92
+  pressSquash: 0.05
+  pressTime: 0.08
+  releaseTime: 0.22
+  releaseOvershoot: 1.9
+  pulseAmount: 0.05
+  pulsePeriod: 1.2
+  cardPopTime: 0.35
+  cardOvershoot: 1.70158
+  cardCloseTime: 0.2
+  cardOverlayAlpha: 0.5
+  breathSpeed: 2.2
+  breathAmount: 0.03
+  idleMoveInterval: {x: 4, y: 8}
+  blinkInterval: {x: 3, y: 6}
+  chatterInterval: {x: 25, y: 45}
+  pitchRange: {x: 0.95, y: 1.05}
+  hoverVolume: 0.35
+  particleAmount: 1
