@@ -67,7 +67,7 @@ Care Points are earned only for care that was finished and needed:
 4. Open the project. The first open takes a while because Unity rebuilds the `Library` folder.
 5. Open `Assets/Scenes/start.unity` and press Play.
 
-To build: **File → Build Profiles → Android → Build**. The scenes in the build are `start`, `selection`, `home` and `minigames`.
+To build: **File → Build Profiles → Android → Build**, or **PawCare → Build Android APK** in the Unity menu, which writes `Builds/PawCare-v<version>/PawCare-v<version>.apk`. The scenes in the build are `start`, `selection`, `home` and `minigames`.
 
 ## Project structure
 
@@ -95,7 +95,7 @@ ProjectSettings/     Unity project settings
 
 ## Current development status
 
-**Version 0.1.0 – first controlled development build.**
+**Version 0.1.1 – development build.** It follows v0.1.0, the first controlled build, and adds stricter save-data validation.
 
 - The core loop (adopt, care, earn Care Points, evolve, mini-games, save and continue) is implemented.
 - An Android APK has been built; testing on Android devices is still in progress.
